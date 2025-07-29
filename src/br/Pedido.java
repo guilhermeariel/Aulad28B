@@ -23,7 +23,7 @@ public class Pedido {
   public void exibirResumo(){
     System.out.println("Resumo do pedido");
     for (ItemPedido item : itens) {
-      System.out.printf("%s - %d x R$ %.2f = R$ %.2f\n",
+      System.out.printf("%s | %d x R$ %.2f = R$ %.2f\n",
           item.getProduto().getNome(),
           item.getQuantidade(),
           item.getProduto().getPreco(),
