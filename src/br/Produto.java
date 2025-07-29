@@ -5,6 +5,9 @@ public class Produto {
   private String nome;
   private double preco;
 
+//METODOS PUBLICOS
+
+
 //GETTERS SETTERS
   public String getNome() {
     return nome;

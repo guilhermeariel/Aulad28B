@@ -1,5 +1,6 @@
 package br;
 
+
 public class ItemPedido {
   //ATRIBUTOS
   private Produto produto;
@@ -20,6 +21,10 @@ public class ItemPedido {
 
   public void setQuantidade(int quantidade) {
     this.quantidade = quantidade;
+  }
+
+  public double getSubtotal() {
+    return produto.getPreco() * quantidade;
   }
 
   //CONTRUTOR
